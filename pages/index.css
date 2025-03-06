@@ -17,7 +17,9 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  box-sizing: border-box;
+  height: 100vh;
+  max-height: 800px;
+  min-height: 700px;
 }
 
 .nav {
@@ -50,11 +52,6 @@
   text-decoration: none;
 }
 
-.header__content {
-  display: flex;
-  justify-content: space-between;
-}
-
 .header__title {
   display: flex;
   font-family: "Inter", Arial, sans-serif;
@@ -85,8 +82,8 @@
 }
 
 .header__image {
-  position: relative;
-  left: 5px;
+  position: absolute;
+  right: 5px;
   display: flex;
   flex-direction: column;
   height: 568px;

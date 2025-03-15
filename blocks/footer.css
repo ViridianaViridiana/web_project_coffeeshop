@@ -3,6 +3,7 @@
   color: #ffffff;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .footer__content {
@@ -11,7 +12,6 @@
   padding-top: 60px;
   padding-right: 80px;
   padding-left: 80px;
-  padding-bottom: 108px;
 }
 
 .footer__logo {
@@ -70,10 +70,9 @@
 }
 
 .footer__copyright {
-  padding-right: 80px;
-  padding-bottom: 60px;
   font-family: "Inter";
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin: 108px 80px 60px;
 }

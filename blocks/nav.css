@@ -31,4 +31,5 @@
 .nav__link {
   list-style-type: none;
   text-decoration: none;
+  color: inherit;
 }
